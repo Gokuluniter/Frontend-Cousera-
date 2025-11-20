@@ -9,10 +9,33 @@ header, main, footer{
 header .container, main .container, footer .container{
 	max-width:855px;
 	margin:auto;
+	overflow: hidden;
 }
 header{
 	background: white;
 }
 main{
 	background: white;
+	overflow: hidden;
+}
+
+.mainnav{
+	float:right;
+}
+.head{
+	float:left;
+}
+
+.img{
+	float: right;
+}
+.maincontent{
+	float:left;
+	width:570px;
+}
+.sitemap{
+	float:right;
+}
+.contact{
+	float: left;
 }
